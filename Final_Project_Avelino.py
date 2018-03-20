@@ -13,7 +13,7 @@ Instructions:
         * if you are reading this you may have already done so!
     (2) Run the "plot_data" function with the appropriate arguments:
         - the first argument is the file name/path of the .csv
-        - the second argument is the dictionary "well_values"
+        - the second argument is the variable "well_values" defined upon running the .py file
             * well_values can be modified as per experimental parameters
     (3) Visualize data
     
