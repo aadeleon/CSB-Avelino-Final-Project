@@ -107,6 +107,7 @@ def organize_data(file_name, well_num):
     
 # finally, this function plots the pandas dataframe produced by the organize_data function
 # this is the only function to run in console since it calls the organize_data function
+# the code here is pretty self-explanatory
 def plot_data(file_name, well_num):
     to_plot = organize_data(file_name, well_num)
     pyplot.figure(figsize=(16,9))
