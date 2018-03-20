@@ -19,9 +19,10 @@ Instructions:
     
 Notes:
     
-    (1) The .csv files are produced by Image Studio connected to a near-IR imager (Li-Cor).
-    (2) Sample types ("Sample", "Background", "None") are set using the Image Studio GUI.
-    (3) Programmed using Spyder IDE
+    - The .csv files are produced by Image Studio connected to a near-IR imager (Li-Cor)
+    - There are 3 .csv files included
+    - Sample types ("Sample", "Background", "None") are set using the Image Studio GUI
+    - Programmed using Spyder IDE
 
 Thank you for teaching this course!
 
@@ -104,8 +105,8 @@ def organize_data(file_name, well_num):
     # output is the data organized into a pandas dataframe
     return(pd.DataFrame(clean_data))
     
-# finally, this function plots the pandas dataframe produced by the previous function
-# this is the only function to run in console since it calls the organize_data function above
+# finally, this function plots the pandas dataframe produced by the organize_data function
+# this is the only function to run in console since it calls the organize_data function
 def plot_data(file_name, well_num):
     to_plot = organize_data(file_name, well_num)
     pyplot.figure(figsize=(16,9))
