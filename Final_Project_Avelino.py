@@ -20,7 +20,7 @@ Instructions:
 Notes:
     
     - The .csv files are produced by Image Studio connected to a near-IR imager (Li-Cor)
-    - There are 3 .csv files included
+    - There are 3 .csv files included as examples
     - Sample types ("Sample", "Background", "None") are set using the Image Studio GUI
     - Programmed using Spyder IDE
 
