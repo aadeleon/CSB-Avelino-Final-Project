@@ -3,10 +3,17 @@
 This straightforward program is meant to automate the analysis of In-Cell Western (ICW)
 assays in my lab and to very quickly visualize the acquired data before variance analysis.
 Preliminary analysis is typically performed using Excel. The assay is performed at least
-a couple times a week, so this program will surely save time in the long run.
+a couple times a week, so this program will surely save time in the long run as the assay
+continues to be optimized for multiple conditions.
 
-While this particular program was written for analyzing insulin assays of cultured cells,
-the code variables can easily be modified as per the necessary experimental conditions.
+While this particular program was written for the analysis of insulin assays in cultured cells,
+the code and its variables can easily be modified as per the necessary experimental conditions.
+
+Overview:
+
+The program begins by extracting the desired data from the relevant .csv file.
+
+Then, the data is organized before finally being plotted with error bars.
 
 Instructions:
     
